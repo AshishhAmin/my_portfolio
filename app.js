@@ -307,6 +307,8 @@ class FloatingParticles {
   createParticle() {
     const particle = document.createElement('div');
     particle.className = 'particle';
+    particle.style.bottom = '0'; // Start at the bottom of the section
+    particle.style.top = '';
     particle.style.left = Math.random() * 100 + '%';
     particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
     particle.style.opacity = Math.random() * 0.5 + 0.2;

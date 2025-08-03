@@ -1059,7 +1059,7 @@ section {
 }
 
 .about-avatar {
-    width: 250px;
+    width: 230px;
     height: 230px;
     background: var(--color-bg-4);
     border-radius: var(--radius-lg);
@@ -1708,7 +1708,7 @@ html {
   margin-left: 10px;
 }
 .about-pic {
-  width: 250px;        /* Adjust width as needed */
+  width: 230px;        /* Adjust width as needed */
   height: 230px;       /* Adjust height as needed */
   border-radius: 8px;  /* OPTIONAL: slightly rounded corners, remove for a perfect rectangle */
   object-fit: cover;

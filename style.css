@@ -1059,8 +1059,8 @@ section {
 }
 
 .about-avatar {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: var(--color-bg-4);
     border-radius: var(--radius-lg);
     display: flex;
@@ -1708,8 +1708,8 @@ html {
   margin-left: 10px;
 }
 .about-pic {
-  width: 290px;        /* Adjust width as needed */
-  height: 290px;       /* Adjust height as needed */
+  width: 250px;        /* Adjust width as needed */
+  height: 250px;       /* Adjust height as needed */
   border-radius: 8px;  /* OPTIONAL: slightly rounded corners, remove for a perfect rectangle */
   object-fit: cover;
   border: 3px solid #fff;

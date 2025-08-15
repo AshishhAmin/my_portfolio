@@ -57,17 +57,6 @@ const portfolioData = {
         featured: true
       },
       {
-        id: 2,
-        title: "Marketing Targets for Banking Dataset",
-        description: "Interactive dashboard analyzing sales performance with real-time data visualization and KPI tracking.",
-        technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "MLlib","Scikit-learn"],
-        category: "data-analytics",
-        image: "projects/bank.jpg" ,
-        liveDemo: "#",
-        github: "https://github.com/AshishhAmin/Banking-Dataset--Marketing-Targets",
-        featured: true
-      },
-      {
         id: 3,
         title: "Netflix EDA",
         description: "Machine learning clustering analysis to identify customer segments and improve marketing targeting.",
@@ -78,17 +67,7 @@ const portfolioData = {
         github: "https://github.com/AshishhAmin/Netflix_EDA",
         featured: false
       },
-      {
-        id: 4,
-        title: "Vegetable Classification",
-        description: "A simple machine learning project for classifying different vegetable classes based on image data.",
-        technologies: ["Python", "NumPy", "Pandas", "TensorFlow"],
-        category: "data-analytics",
-        image: "projects/classification.jpeg",
-        liveDemo: "#",
-        github: "https://github.com/AshishhAmin/Vegetable_Classification",
-        featured: false
-      }
+      
     ],
     django: [
       {
@@ -114,6 +93,30 @@ const portfolioData = {
         featured: false
       },
      
+    ],
+    dataScience: [
+      {
+        id: 2,
+        title: "Marketing Targets for Bank",
+        description: "his project deploys a machine learning model for predicting bank marketing campaign success using Streamlit. The model predicts whether a customer will subscribe to a term deposit based on demographic and campaign data.",
+        technologies: ["Python", "Pandas", "Plotly", "Streamlit", "MLlib","Scikit-learn"],
+        category: "data-science",
+        image: "projects/bank.jpg" ,
+        liveDemo: "https://bank-marketing-campaign-predictor.streamlit.app/",
+        github: "https://github.com/AshishhAmin/Bank-Marketing-Campaign-Predictor",
+        featured: true
+      },
+      {
+        id: 4,
+        title: "Vegetable Classification",
+        description: "A simple machine learning project for classifying different vegetable classes based on image data.",
+        technologies: ["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow", "Keras"],
+        category: "data-science",
+        image: "projects/classification.jpeg",
+        liveDemo: "#",
+        github: "https://github.com/AshishhAmin/Vegetable_Classification",
+        featured: false
+      }
     ]
   },
   stats: [
@@ -420,7 +423,7 @@ class SkillsManager {
 // Projects manager
 class ProjectsManager {
   constructor() {
-    this.allProjects = [...portfolioData.projects.dataAnalytics, ...portfolioData.projects.django];
+    this.allProjects = [...portfolioData.projects.dataAnalytics, ...portfolioData.projects.dataScience, ...portfolioData.projects.django];
     this.currentFilter = 'all';
     this.init();
   }

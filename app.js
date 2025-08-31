@@ -67,6 +67,18 @@ const portfolioData = {
         github: "https://github.com/AshishhAmin/Netflix_EDA",
         featured: false
       },
+      {
+        id: 8,
+        title: "Sales Analysis",
+        description: "This visualization provides an insightful analysis, highlighting key trends and helping businesses make informed decisions about their pizza offerings.",
+        technologies: ["Tableau", "Excel", "Data Visualization"],
+        category: "data-analytics",
+        image: "projects/pizza.jpeg",
+        liveDemo: "https://public.tableau.com/app/profile/ashish.k.amin/viz/pizzasales_17352059034370/Dashboard1",
+        github: "#",
+        featured: false
+      },
+
       
     ],
     django: [
